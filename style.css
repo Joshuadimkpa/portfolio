@@ -799,7 +799,7 @@ html {
 }
 
 .project-tags {
-  width: 30%;
+  /* width: 100%; */
   height: auto;
   display: flex;
   flex-direction: row;
@@ -1342,6 +1342,18 @@ html {
     display: flex;
     flex-direction: column;
     row-gap: var(--space3);
+  }
+
+  .project-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: var(--space3);
+    column-gap: var(--space3);
   }
 }
 
